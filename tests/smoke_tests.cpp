@@ -3,6 +3,7 @@
 #include "cga/genome.hpp"
 #include "cga/evaluate.hpp"
 #include "cga/mutation.hpp"
+#include "cga/dataset.hpp"
 
 int main() {
   cga::Genome genome;
@@ -25,5 +26,10 @@ int main() {
   const auto changed = cga::mutate(random, rng);
   assert(random.valid());
   assert(changed > 0);
+  cga::Dataset data{{{0.0F, 0.0F}, {0.0F}},
+                    {{1.0F, 0.0F}, {1.0F}},
+                    {{0.0F, 1.0F}, {1.0F}},
+                    {{1.0F, 1.0F}, {2.0F}}};
+  assert(cga::mean_squared_error(genome, data) >= 0.0F);
   return 0;
 }
