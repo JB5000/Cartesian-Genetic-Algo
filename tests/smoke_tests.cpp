@@ -4,6 +4,7 @@
 #include "cga/evaluate.hpp"
 #include "cga/mutation.hpp"
 #include "cga/dataset.hpp"
+#include "cga/evolution.hpp"
 
 int main() {
   cga::Genome genome;
@@ -31,5 +32,16 @@ int main() {
                     {{0.0F, 1.0F}, {1.0F}},
                     {{1.0F, 1.0F}, {2.0F}}};
   assert(cga::mean_squared_error(genome, data) >= 0.0F);
+  cga::EvolutionConfig config;
+  config.population_size = 6;
+  config.generations = 3;
+  config.seed = 7;
+  const auto evolved = cga::evolve(2, 5, 1,
+      [&](const cga::Genome& candidate) {
+        return cga::mean_squared_error(candidate, data);
+      }, config);
+  assert(evolved.evaluations == 18);
+  assert(evolved.best.valid());
+  assert(evolved.history.size() == 3);
   return 0;
 }
