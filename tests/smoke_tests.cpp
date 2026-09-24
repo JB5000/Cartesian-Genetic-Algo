@@ -1,6 +1,7 @@
 #include <cassert>
 
 #include "cga/genome.hpp"
+#include "cga/evaluate.hpp"
 
 int main() {
   cga::Genome genome;
@@ -13,5 +14,9 @@ int main() {
   assert(active.size() == 2);
   assert(active[0] == 0);
   assert(active[1] == 1);
+  const auto result = cga::evaluate(genome, {3.0F, 2.0F});
+  assert(result.outputs.size() == 1);
+  assert(result.outputs[0] == 10.0F);
+  assert(result.active_nodes == 2);
   return 0;
 }
