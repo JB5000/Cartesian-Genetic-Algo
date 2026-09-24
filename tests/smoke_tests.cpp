@@ -5,6 +5,7 @@
 #include "cga/mutation.hpp"
 #include "cga/dataset.hpp"
 #include "cga/evolution.hpp"
+#include "cga/checkpoint.hpp"
 
 int main() {
   cga::Genome genome;
@@ -43,5 +44,12 @@ int main() {
   assert(evolved.evaluations == 18);
   assert(evolved.best.valid());
   assert(evolved.history.size() == 3);
+  const std::string checkpoint_path = "/tmp/cga_smoke_checkpoint.ckpt";
+  cga::save_checkpoint(checkpoint_path, {evolved.best, evolved.best_fitness,
+                                         evolved.evaluations});
+  const auto restored = cga::load_checkpoint(checkpoint_path);
+  assert(restored.genome.valid());
+  assert(restored.genome.nodes.size() == evolved.best.nodes.size());
+  assert(restored.evaluations == evolved.evaluations);
   return 0;
 }
