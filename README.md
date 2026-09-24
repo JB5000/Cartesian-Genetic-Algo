@@ -25,7 +25,8 @@ cmake --build build
 ./build/cga_throughput
 ```
 
-The public API is header-only under `include/cga/`. See
+The public API is header-only under `include/cga/`; applications can include
+everything with `#include <cga/cga.hpp>`. See
 [`docs/design.md`](docs/design.md) for the genome layout and evolution model.
 
 ## License
