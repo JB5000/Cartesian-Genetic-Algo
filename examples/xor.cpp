@@ -3,6 +3,7 @@
 
 #include "cga/dataset.hpp"
 #include "cga/evolution.hpp"
+#include "cga/metrics.hpp"
 
 int main() {
   const cga::Dataset xor_data{
@@ -29,7 +30,8 @@ int main() {
   std::cout << std::fixed << std::setprecision(6)
             << "best_mse=" << result.best_fitness
             << " evaluations=" << result.evaluations
-            << " active_nodes=" << result.best.active_nodes().size() << '\n';
+            << " active_nodes=" << result.best.active_nodes().size()
+            << " accuracy=" << cga::binary_accuracy(result.best, xor_data) << '\n';
   for (const auto& sample : xor_data) {
     const auto prediction = cga::evaluate(result.best, sample.inputs).outputs.front();
     std::cout << sample.inputs[0] << " xor " << sample.inputs[1]

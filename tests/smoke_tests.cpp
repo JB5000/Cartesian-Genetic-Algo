@@ -6,6 +6,7 @@
 #include "cga/dataset.hpp"
 #include "cga/evolution.hpp"
 #include "cga/checkpoint.hpp"
+#include "cga/metrics.hpp"
 
 int main() {
   cga::Genome genome;
@@ -33,6 +34,8 @@ int main() {
                     {{0.0F, 1.0F}, {1.0F}},
                     {{1.0F, 1.0F}, {2.0F}}};
   assert(cga::mean_squared_error(genome, data) >= 0.0F);
+  assert(cga::mean_absolute_error(genome, data) >= 0.0F);
+  assert(cga::active_node_ratio(genome) > 0.0F);
   cga::EvolutionConfig config;
   config.population_size = 6;
   config.generations = 3;
