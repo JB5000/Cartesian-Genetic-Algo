@@ -7,6 +7,7 @@ set(CMAKE_CXX_EXTENSIONS OFF)
 
 option(CGA_BUILD_TESTS "Build unit tests" ON)
 option(CGA_BUILD_EXAMPLES "Build examples" ON)
+option(CGA_BUILD_BENCHMARKS "Build benchmarks" OFF)
 
 add_library(cga INTERFACE)
 target_include_directories(cga INTERFACE ${CMAKE_CURRENT_SOURCE_DIR}/include)
@@ -26,4 +27,9 @@ if(CGA_BUILD_EXAMPLES)
   target_link_libraries(cga_xor PRIVATE cga)
   add_executable(cga_xor_checkpoint examples/xor_checkpoint.cpp)
   target_link_libraries(cga_xor_checkpoint PRIVATE cga)
+endif()
+
+if(CGA_BUILD_BENCHMARKS)
+  add_executable(cga_throughput benchmarks/throughput.cpp)
+  target_link_libraries(cga_throughput PRIVATE cga)
 endif()
