@@ -17,6 +17,17 @@ ctest --test-dir build --output-on-failure
 ./build/cga_xor
 ```
 
+To build the optional throughput benchmark:
+
+```bash
+cmake -S . -B build -DCGA_BUILD_BENCHMARKS=ON
+cmake --build build
+./build/cga_throughput
+```
+
+The public API is header-only under `include/cga/`. See
+[`docs/design.md`](docs/design.md) for the genome layout and evolution model.
+
 ## License
 
 MIT.
