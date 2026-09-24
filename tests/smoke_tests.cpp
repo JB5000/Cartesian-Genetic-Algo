@@ -2,6 +2,7 @@
 
 #include "cga/genome.hpp"
 #include "cga/evaluate.hpp"
+#include "cga/mutation.hpp"
 
 int main() {
   cga::Genome genome;
@@ -18,5 +19,11 @@ int main() {
   assert(result.outputs.size() == 1);
   assert(result.outputs[0] == 10.0F);
   assert(result.active_nodes == 2);
+  std::mt19937 rng(42);
+  auto random = cga::random_genome(2, 8, 1, rng);
+  assert(random.valid());
+  const auto changed = cga::mutate(random, rng);
+  assert(random.valid());
+  assert(changed > 0);
   return 0;
 }
