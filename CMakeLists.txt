@@ -6,7 +6,7 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 set(CMAKE_CXX_EXTENSIONS OFF)
 
 option(CGA_BUILD_TESTS "Build unit tests" ON)
-option(CGA_BUILD_EXAMPLES "Build examples" OFF)
+option(CGA_BUILD_EXAMPLES "Build examples" ON)
 
 add_library(cga INTERFACE)
 target_include_directories(cga INTERFACE ${CMAKE_CURRENT_SOURCE_DIR}/include)
