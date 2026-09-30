@@ -1,0 +1,272 @@
+[
+  {
+    "path": "CODEX_IMPLEMENTATION_PROMPT.md",
+    "bytes": 4402,
+    "sha256": "2bc224ac014fb601c964d03aeb7c195cf4e622bdf7963773427e518c51527c89"
+  },
+  {
+    "path": "IMPLEMENTATION_PLAN.md",
+    "bytes": 3037,
+    "sha256": "bfe66414b79b79c25e5a1bd4fb5801f3bda657795e3c413ae21f38981b8d9d6b"
+  },
+  {
+    "path": "README.md",
+    "bytes": 3423,
+    "sha256": "c5abaf8a94febcbd2e627921be6a4a1c3a7adfe25ba3986efe0cab84dfdef220"
+  },
+  {
+    "path": "SYSTEM_SPEC.md",
+    "bytes": 8940,
+    "sha256": "3a3b5f9383e83ea37bad066fabc26aae83c8d68b46c119eb7c86c9a093770155"
+  },
+  {
+    "path": "data/distill_digits/test.csv",
+    "bytes": 103710,
+    "sha256": "9ea3621e81b3cf2f1e78d56da62e745ad9f967a51c0d481931cd2989d59aa40e"
+  },
+  {
+    "path": "data/distill_digits/train.csv",
+    "bytes": 309849,
+    "sha256": "809f458ef73d375b8f1a0846f16269c477e2b30c9fd91d33ecf9820aeff165a1"
+  },
+  {
+    "path": "data/real_bench/breast_cancer_test.csv",
+    "bytes": 14607,
+    "sha256": "e748887ef3d41f171e2a1ea86fd90672d1a55c5a8b144c1c66432ae67da609b1"
+  },
+  {
+    "path": "data/real_bench/breast_cancer_train.csv",
+    "bytes": 43941,
+    "sha256": "aa11410d080c2013ef3eec6fc1719bfe1fb180ccfb1157152ebe94f2ec0f917c"
+  },
+  {
+    "path": "data/real_bench/diabetes_test.csv",
+    "bytes": 4157,
+    "sha256": "eb0841d61cde58a660bede57a111261fc7106177da3bfcbf380f5ed97cb7265d"
+  },
+  {
+    "path": "data/real_bench/diabetes_train.csv",
+    "bytes": 12203,
+    "sha256": "448358b5440510617eca7434945a3a7bed3770265a74e5e8a7cc35e43f8e1f76"
+  },
+  {
+    "path": "data/real_bench/digits_test.csv",
+    "bytes": 93309,
+    "sha256": "dfa46a6f4c60b016b16a89f53753a162b5b018350d1675dd5db26a19a92e8d5b"
+  },
+  {
+    "path": "data/real_bench/digits_train.csv",
+    "bytes": 278868,
+    "sha256": "0e744251c9d65e28c33d84dabc44ddb2c78ac6e19d902a70cf467b7afcbcfb0a"
+  },
+  {
+    "path": "data/real_bench/wine_test.csv",
+    "bytes": 2037,
+    "sha256": "b081ad45bbc7e88cc11185916413780b03f31553a02541734e738b0b306e0c9c"
+  },
+  {
+    "path": "data/real_bench/wine_train.csv",
+    "bytes": 6001,
+    "sha256": "27e4196d4c74e07426beb02b005ccfb8e885a1a9a2c05a2d1f4a0d79d2fc8e9f"
+  },
+  {
+    "path": "docs/BENCHMARK_SUMMARY.md",
+    "bytes": 3494,
+    "sha256": "a6cdd645033ec44edd0c3e512f88609ccf9bf4ed0d18bd860202090341ba7603"
+  },
+  {
+    "path": "figures/adaptive_controller_classification.png",
+    "bytes": 100711,
+    "sha256": "9b4d97f3aaae20662b5b53f79b11da4b1e739508978ac9748379d936a3db3b85"
+  },
+  {
+    "path": "figures/adaptive_controller_diabetes.png",
+    "bytes": 102089,
+    "sha256": "08d40e304e55ce44bbc01780da9fda0de5d475dbd0572f62d371a03248243cb6"
+  },
+  {
+    "path": "figures/distillation_benchmark.png",
+    "bytes": 92002,
+    "sha256": "ad70f9bfc879be230d80373e50fcb0293b071a55f94a710c70965a9fe907a8a3"
+  },
+  {
+    "path": "figures/five_validation_champion_accuracy.png",
+    "bytes": 56830,
+    "sha256": "47dd9ce3747c7db090a0960577c730e22455b16a9522cd21d3dc82be365381d5"
+  },
+  {
+    "path": "figures/five_validation_rank_benchmark.png",
+    "bytes": 74805,
+    "sha256": "db2bcdbc69f22439ef7999d89ed1325ad4a416c4239beaf5871f333992020f89"
+  },
+  {
+    "path": "figures/hierarchy_module_promotion_benchmark.png",
+    "bytes": 85575,
+    "sha256": "c0cd36005804bc0105540a09052e561b2993ee3c0b726d9562e47ea591a7140c"
+  },
+  {
+    "path": "figures/module_reuse_paired_12seeds.png",
+    "bytes": 151336,
+    "sha256": "23ac74095175c97cb81b72a8eb6c03297f0e4047bf3f578697d4cd86a4283d09"
+  },
+  {
+    "path": "figures/mul3_success_scaling.png",
+    "bytes": 59881,
+    "sha256": "a32025e7eb99521ceaeb5e18fa5cbb1018a7d14ff80f908299f35e449bc9e857"
+  },
+  {
+    "path": "figures/real_classification_benchmark.png",
+    "bytes": 63617,
+    "sha256": "593a4fdb0436ff7f6f83f932de7e4073a05922777e54a3dd6cef0bbf32886eca"
+  },
+  {
+    "path": "figures/real_diabetes_benchmark.png",
+    "bytes": 76924,
+    "sha256": "2fd5e4c5111727f7513d42d15f36652a5c61060a7d0c83e243b010dc6353d46e"
+  },
+  {
+    "path": "figures/robust_equal_compute_2m.png",
+    "bytes": 87346,
+    "sha256": "1765e8cc9e37805401e28897189872ebd0e95bdce9a2c7d15317c601a3d8f21f"
+  },
+  {
+    "path": "results/controller/adaptive_controller_allocations.csv",
+    "bytes": 187,
+    "sha256": "b3256fab75223257055434456d386cd8cd4d9b2fff6b4863a70ec2683f7b3a68"
+  },
+  {
+    "path": "results/controller/adaptive_controller_benchmark.csv",
+    "bytes": 982,
+    "sha256": "e1c89d78449b4da59a8a026ad123ba781fdf2dfa0672180842b4d58b0ffc0991"
+  },
+  {
+    "path": "results/controller/adaptive_controller_beta_sensitivity.csv",
+    "bytes": 486,
+    "sha256": "47971af98095393f5728e6ad93eb65478052b0c62f7aa701e836253e70222b5d"
+  },
+  {
+    "path": "results/controller/portfolio_leave_one_dataset_out.csv",
+    "bytes": 475,
+    "sha256": "56f93aac70418c190a6701ab1eccbb8af01ad1e25dd0fa0d1978236fc66e73ec"
+  },
+  {
+    "path": "results/controller/wallclock_32worker_portfolio.csv",
+    "bytes": 1211,
+    "sha256": "ff546c1d248295d4a384d11f60b0c724475f8be4b9cb0117a840ed23aec30515"
+  },
+  {
+    "path": "results/generalization/five_validation_champion_results.csv",
+    "bytes": 848,
+    "sha256": "c850b29144450003dc7c4606c4a93513ab9a152f12510f1d51c275dcd6f00f63"
+  },
+  {
+    "path": "results/generalization/five_validation_rank_benchmark.csv",
+    "bytes": 552,
+    "sha256": "c44edb8736b3b7f48867a08d060f52f388c82363c3dcfead007b82122906ff3e"
+  },
+  {
+    "path": "results/generalization/robust_equal_compute_2m_summary.csv",
+    "bytes": 775,
+    "sha256": "a400203a5a8127834988a04a99da4a1aea14201f3aaa5c216c4d235c3804f4e9"
+  },
+  {
+    "path": "results/generalization/validation_vs_hidden_test.csv",
+    "bytes": 419,
+    "sha256": "66634544416221a1e00b31ec4733752ec4243a988d7f11eae9a3cc56cff5e74f"
+  },
+  {
+    "path": "results/logic/mul3_bool_results_5m.csv",
+    "bytes": 1118,
+    "sha256": "6defb29fc63324345c785662a829f48d36ae101d58f7defa2061a06b6cce4375"
+  },
+  {
+    "path": "results/logic/mul3_bool_solved_genome.txt",
+    "bytes": 712,
+    "sha256": "790f6eb751d8646a3b082e4093d0ad1ed7dea8cf57a2257cf57e092be751f9ff"
+  },
+  {
+    "path": "results/logic/mul4_bool_results_5m.csv",
+    "bytes": 349,
+    "sha256": "9aa9d40b2829189edb570797e023a34584e904a96cb08c8f9e03b42f3b43fc83"
+  },
+  {
+    "path": "results/modules/auto_promote_200k_12seeds.csv",
+    "bytes": 872,
+    "sha256": "88958e7b062ca44c7afa14a093f27cfde6d1929a8808f125d853f2e97023b3da"
+  },
+  {
+    "path": "results/modules/module_baseline_150k_6seeds.csv",
+    "bytes": 482,
+    "sha256": "dc9bb03a5f4daa2ad4e95d15174b1513871ce35cc5c128c1776cfa6b661e6bf8"
+  },
+  {
+    "path": "results/modules/module_baseline_150k_seeds2.csv",
+    "bytes": 483,
+    "sha256": "c01d60873385635e4ab354e8a050838d8107c54d1d96e5184e7f901171d40dce"
+  },
+  {
+    "path": "results/modules/module_reuse_rare_150k_6seeds.csv",
+    "bytes": 503,
+    "sha256": "d900ad945a8077379fd4971c44aea94fe7fb0b326f7ec1d4c5e1afdda3bb6d7d"
+  },
+  {
+    "path": "results/modules/module_reuse_rare_150k_seeds2.csv",
+    "bytes": 507,
+    "sha256": "0d130f63692c8d957d326d0c3d231d55193565dc75db0c49b8a899824c43742a"
+  },
+  {
+    "path": "results/real_world/equal_compute_breast_cancer.csv",
+    "bytes": 2809,
+    "sha256": "d5d1060ce0379b20c29c86a59e8410c5b80d68adfe339d950ae3a7fdd244a24c"
+  },
+  {
+    "path": "results/real_world/equal_compute_diabetes.csv",
+    "bytes": 2708,
+    "sha256": "270548ed6cca130bb4e5dfacb7cdad1f16e4eeeed1141995851386c2fcf44901"
+  },
+  {
+    "path": "results/real_world/equal_compute_digits.csv",
+    "bytes": 2547,
+    "sha256": "302c4f8b87453cb942f07afab5d54079022e4ab23984f61c697297870d40a465"
+  },
+  {
+    "path": "results/real_world/equal_compute_wine.csv",
+    "bytes": 2470,
+    "sha256": "58d944dbcab381b717443c7c656944a1305195f8ec6082d266dae1cd4a278f1f"
+  },
+  {
+    "path": "src/mcu/evo_cgp_mcu_runtime.h",
+    "bytes": 2783,
+    "sha256": "7eb70645bf287e9ad9c81a22e2d0f61a026cffcb1136b8fe78d1eddedfeaeedd"
+  },
+  {
+    "path": "src/reference/auto_promote_modules.cpp",
+    "bytes": 20542,
+    "sha256": "7d5cb92dbe0d2eb6f783e6506ebcbc27549953127efc1e0484a06d69566a370e"
+  },
+  {
+    "path": "src/reference/evo_cgp_hierarchical_fast.cpp",
+    "bytes": 9334,
+    "sha256": "fe52b06a4de06604d45940a99ffeddc8f4722c4225bcd2199f8ef47f8751017e"
+  },
+  {
+    "path": "src/reference/generalist_final_hybrid_benchmark.cpp",
+    "bytes": 10602,
+    "sha256": "f7bec4ca42e21d92ff083dbdc9ef79cca242d033de0970dc74db10543696b08c"
+  },
+  {
+    "path": "src/reference/mul3_bool_cgp.cpp",
+    "bytes": 8400,
+    "sha256": "4f98bf02073b3e2c38fa86daf663fec65fcce5aab87ad93cab52ad15d8beae51"
+  },
+  {
+    "path": "src/reference/symbolic_cgp_mcu.cpp",
+    "bytes": 10092,
+    "sha256": "a90fcf3fffb85ce51c04f55d4e7909519210219f2dcab234e7829c598afb3088"
+  },
+  {
+    "path": "tools/adaptive_controller_reference.py",
+    "bytes": 3276,
+    "sha256": "779918c50d0932d45630bc8ab3030e01418f9f54179147566497fbcc88123b34"
+  }
+]
