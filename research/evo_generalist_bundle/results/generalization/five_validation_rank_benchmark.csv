@@ -1,0 +1,13 @@
+dataset,selector,spearman
+Breast Cancer,5-val mean,0.9077498966490464
+Breast Cancer,5-val median,0.8481010224370779
+Breast Cancer,previous single validation,0.3065477126309154
+Wine,5-val mean,0.4663237270835194
+Wine,5-val median,0.48125
+Wine,previous single validation,0.6581265112464562
+Digits,5-val mean,0.8416045794919395
+Digits,5-val median,0.5676335021713969
+Digits,previous single validation,0.3886584447994011
+Diabetes,5-val mean,0.7518796992481201
+Diabetes,5-val median,0.7371192698790398
+Diabetes,previous single validation,0.6666666666666665
