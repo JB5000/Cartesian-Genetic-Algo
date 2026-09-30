@@ -29,6 +29,14 @@ The public API is header-only under `include/cga/`; applications can include
 everything with `#include <cga/cga.hpp>`. See
 [`docs/design.md`](docs/design.md) for the genome layout and evolution model.
 
+## Generalist evolutionary bundle
+
+The `research/evo_generalist_bundle/` directory contains the 2026-09-30
+generalist evolutionary-system bundle: MCU runtime reference code, host
+experiments, datasets, controller results and the implementation plan. It is
+kept alongside the stable CGP library so the experimental material remains
+reproducible without changing the existing public API.
+
 ## License
 
 MIT.
