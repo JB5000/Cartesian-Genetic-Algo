@@ -1,0 +1,13 @@
+dataset,selector,mean_test,median_test,best_test
+Breast Cancer,Training champion,0.8648020000000001,0.902098,0.958042
+Breast Cancer,5-val mean champion,0.9055945000000002,0.9195805,0.937063
+Breast Cancer,5-val median champion,0.9055945000000002,0.9195805,0.937063
+Wine,Training champion,0.8314815000000001,0.8666665,0.933333
+Wine,5-val mean champion,0.8833332500000001,0.888889,0.955556
+Wine,5-val median champion,0.887037,0.888889,0.955556
+Digits,Training champion,0.3177776666666667,0.308889,0.404444
+Digits,5-val mean champion,0.37370383333333335,0.37111150000000004,0.426667
+Digits,5-val median champion,0.38111133333333336,0.37111150000000004,0.504444
+Diabetes,Training champion,89.57135833333335,83.21625,65.1532
+Diabetes,5-val mean champion,59.533791666666666,60.0856,50.4234
+Diabetes,5-val median champion,60.00075833333333,60.0856,55.2793
