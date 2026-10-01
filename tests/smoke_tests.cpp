@@ -36,6 +36,18 @@ int main() {
   assert(cga::mean_squared_error(genome, data) >= 0.0F);
   assert(cga::mean_absolute_error(genome, data) >= 0.0F);
   assert(cga::active_node_ratio(genome) > 0.0F);
+  const auto signature = cga::semantic_signature(genome, data);
+  assert(signature.values.size() == data.size());
+  assert(cga::semantic_distance(genome, data) >= 0.0F);
+  std::mt19937 semantic_rng(17);
+  cga::SemanticMutationConfig semantic_config;
+  semantic_config.trials = 3;
+  semantic_config.mutation.node_rate = 0.25;
+  semantic_config.mutation.output_rate = 0.25;
+  const auto semantic_result = cga::semantic_mutate(
+      genome, data, semantic_rng, semantic_config);
+  assert(genome.valid());
+  assert(semantic_result.after <= semantic_result.before);
   cga::EvolutionConfig config;
   config.population_size = 6;
   config.generations = 3;
