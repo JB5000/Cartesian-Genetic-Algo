@@ -7,3 +7,4 @@
 #include "cga/genome.hpp"
 #include "cga/metrics.hpp"
 #include "cga/mutation.hpp"
+#include "cga/semantic.hpp"
