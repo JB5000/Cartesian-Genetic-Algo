@@ -8,3 +8,4 @@
 #include "cga/metrics.hpp"
 #include "cga/mutation.hpp"
 #include "cga/semantic.hpp"
+#include "cga/semantic_mutation.hpp"
