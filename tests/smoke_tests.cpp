@@ -7,6 +7,8 @@
 #include "cga/evolution.hpp"
 #include "cga/checkpoint.hpp"
 #include "cga/metrics.hpp"
+#include "cga/semantic.hpp"
+#include "cga/semantic_mutation.hpp"
 
 int main() {
   cga::Genome genome;
